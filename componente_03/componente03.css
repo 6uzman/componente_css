@@ -51,7 +51,10 @@ main {
             width: 50%;
             float: left;
             padding: 30px;
+        }
 
+        .programs > .item:hover {
+            transform: translateY(-5px) scale(1.05, 1.05);
         }
 
         .programs > .item > img {
